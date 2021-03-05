@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.container1 {
+    width: 100%;
+    height: 1100px;
+}
+
+.body1 {
+    height: 70%;
+    width: 100%;
+    background-image: url(img/header-bg.jpg);
+}
+
+.menu1 {
+    height: 90px;
+    width: 100%;
+    background-color: aliceblue;
+    opacity: 0.25;
+}
+
+.service {
+    height: 30%;
+    width: 100%;
+    background-color: aqua;
+}

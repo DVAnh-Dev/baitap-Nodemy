@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxSP span {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 20%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.textLeft {
+    color: red;
+    text-align: left;
+}
+
+.boxSP {
+    margin-top: 2%;
+    height: auto;
+    padding: 1%;
+    position: relative;
+    width: 25%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .boxSP {
+        width: 100%;
+    }
+}

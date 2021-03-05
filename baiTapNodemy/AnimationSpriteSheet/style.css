@@ -1,0 +1,103 @@
+.conterner {
+    display: flex;
+}
+
+.traidat {
+    width: 64px;
+    height: 64px;
+    background: url(img/Earth1024x1024.png);
+    animation: traidatmoveX 0.5s steps(16) infinite, traidatmoveY 8s steps(16) infinite;
+}
+
+@keyframes traidatmoveX {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1024px;
+    }
+}
+
+@keyframes traidatmoveY {
+    0% {
+        background-position-y: 0;
+    }
+    100% {
+        background-position-y: -1024px;
+    }
+}
+
+.poro {
+    width: 240px;
+    height: 240px;
+    background: url(img/elisaSheet.jpg);
+    animation: poroX 1s steps(8) infinite, poroY 8s steps(8) infinite;
+}
+
+@keyframes poroX {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1920px;
+    }
+}
+
+@keyframes poroY {
+    0% {
+        background-position-y: 0;
+    }
+    100% {
+        background-position-y: -1920px;
+    }
+}
+
+.move1 {
+    width: 60px;
+    height: 60px;
+    background: url(img/move1.png);
+    animation: move1X 1s steps(8) infinite, move1Y 8s steps(4) infinite;
+}
+
+@keyframes move1X {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -240px;
+    }
+}
+
+@keyframes move1Y {
+    0% {
+        background-position-y: 0;
+    }
+    100% {
+        background-position-y: -240px;
+    }
+}
+
+.runner {
+    width: 81px;
+    height: 81px;
+    background: url(img/runner_atlas.jpg);
+    animation: runnerX 0.2s steps(8) infinite, runnerY 1.6s steps(8) infinite;
+}
+
+@keyframes runnerX {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -640px;
+    }
+}
+
+@keyframes runnerY {
+    0% {
+        background-position-y: 0;
+    }
+    100% {
+        background-position-y: -648px;
+    }
+}

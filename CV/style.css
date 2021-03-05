@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+}
+
+.avt {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+.infor1 {
+    padding: 10px;
+}
+
+.nav1 {
+    width: 24%;
+    background-color: #168c36;
+    color: white;
+    flex-direction: column;
+    padding: 40px;
+    position: fixed;
+    height: 100vh;
+}
+
+.nav2 {
+    width: 75%;
+    margin-left: 32%;
+    overflow-y: scroll;
+    height: auto;
+}
+
+.title {
+    width: 100%;
+    height: 15%;
+    background-color: #168c36;
+    color: white;
+    margin-top: 1%;
+}
+
+.title h3 {
+    margin-left: 2%;
+    padding-top: 5Px;
+}
+
+.content {
+    width: 90%;
+    height: auto;
+}
+
+.contentnav {
+    width: 90%;
+    height: auto;
+}
+
+h4 {
+    color: #168c36;
+}
+
+.year1 {
+    width: 30%;
+}
+
+.content1 {
+    width: 70%;
+}
+
+.checked {
+    color: orange;
+}

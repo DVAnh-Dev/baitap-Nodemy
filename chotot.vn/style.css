@@ -1,0 +1,109 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: inline-block;
+    height: 120px;
+    background-color: rgb(255, 186, 0);
+    width: 100%;
+}
+
+.menu {
+    height: 70px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    height: 50px;
+}
+
+.menu ul li img {
+    vertical-align: middle;
+}
+
+.menu ul {
+    height: 70px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+.itmenu1 {
+    margin-left: 100px;
+}
+
+.itmenu {
+    margin-left: 30px;
+}
+
+.search {
+    display: flex;
+    width: 510px;
+    margin-left: 260px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+
+.search input {
+    height: 40px;
+    width: 450px;
+    border-radius: 10px;
+    border: none;
+}
+
+.search button {
+    height: 0 auto;
+    width: 50px;
+}
+
+.content {
+    display: flex;
+    width: 1110px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.block1 {
+    width: 320px;
+    height: 150px;
+    margin: 10px;
+}
+
+.block2 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.content .block1 img {
+    border-radius: 10px;
+    width: 320px;
+    height: 150px;
+}
+
+.content .block2 img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+#posionImg p {
+    position: relative;
+    top: -450px;
+    left: -50px;
+}

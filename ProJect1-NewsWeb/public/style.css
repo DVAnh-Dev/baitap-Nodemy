@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lgForm {
+    width: 500px;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.lgForm a {
+    text-decoration: none;
+}
+
+.lgForm input {
+    outline: none;
+    border-radius: 6px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+button {
+    height: 50px;
+    outline: none;
+}
+
+.btnLogin {
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 8px;
+}
+
+.btnLogin a {
+    color: #ffff;
+    z-index: 10px;
+    text-decoration: none;
+}
+
+.login1 {
+    margin-top: 10px;
+}
+
+.login1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.login1 a:hover {
+    color: blue;
+}
+
+.navTop ul li {
+    display: flex;
+    line-height: 40px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.navTop a input {
+    border-radius: 6px;
+    border: none;
+    height: 35px;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+}
+
+.cardTlt a {
+    text-decoration: none;
+    color: black;
+}
+
+.footerA a {
+    text-decoration: none;
+    color: blue;
+}

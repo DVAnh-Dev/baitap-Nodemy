@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    height: 125px;
+}
+
+.conterner {
+    display: flex;
+    padding: 15px;
+    background-color: antiquewhite;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+}
+
+.search {
+    width: 245px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 18px;
+    background-color: #ffffff;
+}
+
+.search>input {
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 190px;
+    margin: 5px 15px 15px 5px;
+}
+
+.search>img {
+    float: right;
+    width: 26px;
+    height: 35px;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    margin: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    width: 100px;
+}
+
+.contract {
+    width: 100px;
+}
+
+.about {
+    width: 100px;
+}
+
+.education {
+    width: 100px;
+}
+
+.sports {
+    width: 100px;
+}
+
+.content {
+    display: flex;
+    height: 1500px;
+    background-color: aquamarine;
+}
+
+.menulv2 ul li {
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+}
+
+ul li:hover {
+    background-color: red;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+ul li:hover .sub-menu {
+    opacity: 1;
+}

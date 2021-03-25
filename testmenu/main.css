@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.navbar-scroll {
+    background-color: rgba(0, 123, 255, 0.4);
+    transition: background-color 0.5s;
+}
+
+@media(max-width: 768px) {
+    .navbar {
+        background-color: #007bff !important;
+    }
+}
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+
+.parallax-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+
+@media(max-width: 768px) {
+    .col-md-4 {
+        text-align: center;
+        line-height: 30px;
+    }
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}

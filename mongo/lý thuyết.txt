@@ -1,0 +1,15 @@
+npm i  mongoose 
+require('mongoose')
+connect 
+Schema{Mẫu bảng},{tên bảng }
+$gt > 
+$gte >= 
+$lt  <
+$lte <= 
+$ne !== 
+$in [as,sd]
+$nin [as,ds ]
+model.deleteOne xóa đối tượng đầu tiên tìm thấy 
+model.deleteMany xóa all đối tượng tìm thấy  
+updateOne 
+updateMany  

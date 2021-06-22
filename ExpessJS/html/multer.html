@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multer</title>
+</head>
+<body>
+    <form action="/profile" method="post" enctype="multipart/form-data">
+        <div>
+            <input type="text" id="" placeholder="username" class="user"  name="username">
+            <input type="password" placeholder="Pass" class="pass" name="password">
+        </div>
+        <input type="file" name="file" />
+        <button type="button" onclick="upload()">tải lên</button>
+    </form>
+    <img src="/public/uploads/file-1623730924323.jpg" alt="">
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/public/multer.js"></script>
+
+</html>

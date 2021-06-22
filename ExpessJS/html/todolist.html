@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 auto;
+            padding: 0;
+        }
+        .list{
+            display: flex;
+        }
+        .line{
+            display: flex;
+        }
+        .task{
+            border: 1px solid black;
+            width: 300px;
+            display: flex;
+        }
+        .bangsp{
+            width: 500px;
+            margin: 0 auto;
+            padding: 30px;
+            border: 1px solid black;
+        }
+        input{
+            margin-left: 50px;
+        }
+        body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="bangsp">
+        title<input type="text" class="title"><br>
+        description<input type="text" class="description"><br>
+        date<input type="date" class="date"><br>
+        status <select name="" id="" class="status"><br>
+            <option value="todo">todo</option>
+            <option value="doing">doing</option>
+            <option value="done">done</option>
+        </select>
+        <button class="taosp"> Tạo </button>
+    </div>
+    <div class="list">
+        <div class="">
+            <h3>Bảng 1</h3>
+            <div class="todo"></div>
+        </div>
+        <div >
+            <h3>Bảng 2</h3>
+            <div class="doing"></div>
+
+        </div>
+        <div >
+            <h3>Bảng 3</h3>
+            <div class="done"></div>
+        </div>
+    </div>
+    <!-- <h2>Modal Example</h2> -->
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Open Modal</button>
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        title<input type="text" class="title"><br>
+        description<input type="text" class="description"><br>
+        date<input type="date" class="date"><br>
+        status <select name="" id="" class="status"><br>
+            <option value="todo">todo</option>
+            <option value="doing">doing</option>
+            <option value="done">done</option>
+        </select>
+        <button onclick="sua01()" class="suasp"> sửa </button>
+      </div>
+    
+    </div>
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="/public/todolist.js"></script>
+</html>
